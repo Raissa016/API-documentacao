@@ -1,4 +1,4 @@
-![logo](https://user-images.githubusercontent.com/44507419/91613404-d7309a00-e955-11ea-8365-ee2ff644dc63.png )
+![logo](https://user-images.githubusercontent.com/44507419/91507497-616ff400-e8ab-11ea-80e6-c29dfa5da930.png )
 
 # DOCUMENTAÇÃO: API- OCORRÊNCIAS CRIMINAIS
 > A documentação foi deita usando o software [Insomnia Code](https://insomnia.rest/).
