@@ -1,7 +1,7 @@
-![logo](https://user-images.githubusercontent.com/44507419/91507497-616ff400-e8ab-11ea-80e6-c29dfa5da930.png)
+![logo](https://user-images.githubusercontent.com/44507419/91507497-616ff400-e8ab-11ea-80e6-c29dfa5da930.png )
 
 # API-documentacao
-> A documentação foi deita usando o softwarw [Insomnia Code](https://insomnia.rest/).
+> A documentação foi deita usando o software [Insomnia Code](https://insomnia.rest/).
 
 # Acesso
 > Através do [Netlify](https://www.netlify.com/) a documentação pode ser acessada através de um link.
@@ -35,7 +35,7 @@ Mais informações sobre o JSON Web Token poderão ser encontradas no site [json
 Todos os recursos suportam o envio de respostas no formato JSON. Para obter a resposta basta enviar uma requisição HTTP.
 
 ## Recursos
-> Abaixo estão listados os recursos disponivéis pela API.
+Abaixo estão listados os recursos disponivéis pela API.
 
 ### User
 
