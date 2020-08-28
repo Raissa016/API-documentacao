@@ -1,6 +1,6 @@
 ![logo](https://user-images.githubusercontent.com/44507419/91507497-616ff400-e8ab-11ea-80e6-c29dfa5da930.png )
 
-# API-documentacao
+# DOCUMENTAÇÃO: API- OCORRÊNCIAS CRIMINAIS
 > A documentação foi deita usando o software [Insomnia Code](https://insomnia.rest/).
 
 # Acesso
@@ -8,7 +8,7 @@
 
 [CRIME.DATA](https://crimedata.netlify.app/)
 
-# DOCUMENTO 
+# CRIME.DATA
 > Segue uma breve parte da documentação, para acessa-lá completa uso o link indicado anteriormente.
 
 ## Introdução
