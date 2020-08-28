@@ -1,4 +1,4 @@
-![logo](https://user-images.githubusercontent.com/44507419/91507497-616ff400-e8ab-11ea-80e6-c29dfa5da930.png )
+![logo](https://user-images.githubusercontent.com/44507419/91613404-d7309a00-e955-11ea-8365-ee2ff644dc63.png )
 
 # DOCUMENTAÇÃO: API- OCORRÊNCIAS CRIMINAIS
 > A documentação foi deita usando o software [Insomnia Code](https://insomnia.rest/).
@@ -27,7 +27,7 @@ Na rota /login, que retornará um:
 
 ## Autenticação
 
-Usamos o jwt token como forma de autenticação. Ele deve ser passado como cabeçalho (Header) nas rotas protegidas que necessarem, obrigatoriamente, dele.
+Usamos o jwt token como forma de autenticação. Ele deve ser passado como cabeçalho (Header) nas rotas protegidas que necessitam obrigatoriamente dele.
 O JSON Web Token é um padrão da Internet para a criação de dados com assinatura opcional e/ou criptografia, cuja sua payload contém o JSON que afirma algum número de declarações.
 Mais informações sobre o JSON Web Token poderão ser encontradas no site [jsonwebtoken.io](https://www.jsonwebtoken.io/).
 
@@ -43,7 +43,7 @@ Abaixo estão listados os recursos disponivéis pela API.
 
 ### Login
 
-> Recurso responsável por logar o usuário no sistema e retorna-lo o token de acesso.
+> Recurso responsável por logar o usuário no sistema e retorná-lo o token de acesso.
 
 ### Quantidade de Crimes por Ano
 
@@ -55,13 +55,13 @@ O parâmetro _:ano_ recebe a identificação do ano, por exemplo **2020**. Caso 
 
 ### Quantidade de Ocorrências
 
-> Este recurso retorna a quantidade de crimes notificados em um determinado estado. Para isto, o parâmetro :sigla recebe a UF, caso almeje os dados do país inteiro insira BR.
+> Este recurso retorna a quantidade de crimes notificados em um determinado estado.
 
 * __Parâmetros__
 
 O parâmetro _:sigla_ recebe a identificação do estado, por exemplo **ceara** ou **ce**. Caso demande a requisição para os dados do país inteiro, inserir **bra** ou **brasil**.
 
-O parâmetro _:nomecrime_ recebe a especificação do crime, por exemplo **roubo_veiculo**. Caso demande a requisição para os dados de todos os crimes, inserir **todos** ).
+O parâmetro _:nomecrime_ recebe a especificação do crime, por exemplo **roubo_veiculo**. Caso demande a requisição para os dados de todos os crimes, inserir **todos**.
 
 ### Quantidade de Vítimas
 
@@ -71,11 +71,11 @@ O parâmetro _:nomecrime_ recebe a especificação do crime, por exemplo **roubo
 
 O parâmetro _:sigla_ recebe a identificação do estado, por exemplo **ceara** ou **ce**. Caso demande a requisição para os dados do país inteiro, inserir **bra** ou **brasil**.
 
-O parâmetro _:nomecrime_ recebe a especificação do crime, por exemplo **homicidio_doloso**. Caso demande a requisição para os dados de todos os crimes, inserir **todos** ).
+O parâmetro _:nomecrime_ recebe a especificação do crime, por exemplo **homicidio_doloso**. Caso demande a requisição para os dados de todos os crimes, inserir **todos**.
 
 ### Média de Ocorrências
 
-> Este recurso retorna a média de ocorrências de um crime em determinado período de tempo.
+> Este recurso retorna a média mensal de ocorrências de um crime em determinado período de tempo.
 
 * __Parâmetros__
 
@@ -87,7 +87,7 @@ Os parâmetros _início_ e _fim_ recebem uma data de início e fim para o cálcu
 
 ### Média de Vítimas
 
-> Este recurso retorna a média de vítimas de um crime em determinado período de tempo.
+> Este recurso retorna a média mensal de vítimas de um crime em determinado período de tempo.
 
 * __Parâmetros__
 
@@ -103,9 +103,9 @@ Os parâmetros _início_ e _fim_ recebem uma data de início e fim para o cálcu
 
 * __Parâmetros__
 
-O parâmetro _:quantidade_ recebe um valor inteiro, por exemplo **10**. Determina a quantidade de elementos que devem aparecer no ranking. Caso demande a requisição para todos os estados, inserir **26**.
+O parâmetro _:quantidade_ recebe um valor inteiro, por exemplo **10**. Determina a quantidade de elementos que devem aparecer no ranking. Caso demande a requisição para todos os estados, inserir **27**.
 
-O parâmetro _:nomecrime_ recebe a especificação do crime, por exemplo **roubo_veiculo**. Caso demande a requisição para os dados de todos os crimes, inserir **todos** ).
+O parâmetro _:nomecrime_ recebe a especificação do crime, por exemplo **roubo_veiculo**. Caso demande a requisição para os dados de todos os crimes, inserir **todos**.
 
 ### Ranking Criminal por Estado
 > Este recurso retorna o ranking de crimes que apresentam uma maior ocorrência em um dado estado (ou no país inteiro).
