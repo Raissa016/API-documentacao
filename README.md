@@ -4,9 +4,9 @@
 > A documentação foi deita usando o software [Insomnia Code](https://insomnia.rest/).
 
 # Acesso
-> Através do [Netlify](https://www.netlify.com/) a documentação pode ser acessada através de um link.
+> Através do [Netlify](https://www.netlify.com/) a documentação e outros dados podem ser acessados através desse link:
 
-[CRIME.DATA](https://crimedata.netlify.app/)
+[CRIME.DATA](https://crimepontodata.netlify.app/)
 
 # CRIME.DATA
 > Segue uma breve parte da documentação, para acessa-lá completa uso o link indicado anteriormente.
