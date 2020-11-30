@@ -6,7 +6,7 @@
 # Acesso
 > Através do [Netlify](https://www.netlify.com/) a documentação e outros dados podem ser acessados através desse link:
 
-[CRIME.DATA](https://crimepontodata.netlify.app/)
+[CRIME.DATA](https://crimedata.netlify.app/)
 
 # CRIME.DATA
 > Segue uma breve parte da documentação, para acessa-lá completa uso o link indicado anteriormente.
